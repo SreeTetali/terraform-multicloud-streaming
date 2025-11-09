@@ -1,0 +1,14 @@
+﻿# Terraform
+.terraform/
+*.tfstate*
+.terraform.lock.hcl
+crash.log
+
+# IDE
+.vscode/
+.idea/
+
+# Credentials
+*.pem
+*.key
+key.json
