@@ -1,0 +1,16 @@
+﻿# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# IDE
+.vscode/
+.idea/
+
+# Local credentials
+*.pem
+*.key
+key.json
+azure_credentials.json

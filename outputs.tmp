@@ -1,0 +1,3 @@
+﻿output "placeholder" {
+  value = "use the examples/* folders to run provider-specific examples"
+}
