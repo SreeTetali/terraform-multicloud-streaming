@@ -67,6 +67,8 @@ Variable	Description	Type	Default
 stream_name	Name of the stream to create	string	"demo-stream"
 shard_count	Number of shards for the stream	number	1
 cloud_provider	Target cloud provider (aws/azure/gcp)	string	"was"
+
+| ---------------- | ------------------------------------- | ------ | --------------- |
 | Variable         | Description                           | Type   | Default         |
 | ---------------- | ------------------------------------- | ------ | --------------- |
 | `stream_name`    | Name of the stream to create          | string | `"demo-stream"` |
@@ -74,6 +76,8 @@ cloud_provider	Target cloud provider (aws/azure/gcp)	string	"was"
 | `cloud_provider` | Target cloud provider (aws/azure/gcp) | string | `"aws"`         |
 
 📤 Outputs
+
+| ------------ | ---------------------------- |
 | Name         | Description                  |
 | ------------ | ---------------------------- |
 | `stream_id`  | ID of the created stream     |
