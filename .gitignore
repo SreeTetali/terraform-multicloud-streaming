@@ -1,16 +1,44 @@
-﻿# Terraform
-.terraform/
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
 *.tfstate
 *.tfstate.*
-.terraform.lock.hcl
-crash.log
 
-# IDE
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude CLI configuration files
+.terraformrc
+terraform.rc
+
+# Exclude environment variables or secret files
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Ignore override files as they are usually used for local testing
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore temporary files
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# VSCode and other IDE files
 .vscode/
 .idea/
+*.code-workspace
 
-# Local credentials
-*.pem
-*.key
-key.json
-azure_credentials.json
+# macOS metadata
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+desktop.ini
